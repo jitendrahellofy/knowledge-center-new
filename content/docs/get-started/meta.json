@@ -1,0 +1,11 @@
+{
+  "title": "Get Started",
+  "pages": [
+    "pre-requisites",
+    "Signin",
+    "Signup",
+    "activate-free-trial"
+  ],
+  "collapsed": false,
+  "link": "pre-requisites"
+}

@@ -1,0 +1,34 @@
+{
+  "node_modules/fumadocs-core/dist/search/client.js -> ../algolia-NXNLN7TR.js": {
+    "id": 7914,
+    "files": [
+      "static/chunks/914.472a8d98f6af585a.js"
+    ]
+  },
+  "node_modules/fumadocs-core/dist/search/client.js -> ../fetch-ZSD7GUCX.js": {
+    "id": 5371,
+    "files": [
+      "static/chunks/371.5bc0e4ffe0c1d490.js"
+    ]
+  },
+  "node_modules/fumadocs-core/dist/search/client.js -> ../orama-cloud-I4WBDIAI.js": {
+    "id": 1753,
+    "files": [
+      "static/chunks/753.d8aa8f3fc0e1a999.js"
+    ]
+  },
+  "node_modules/fumadocs-core/dist/search/client.js -> ../static-QTPM5MZT.js": {
+    "id": 1514,
+    "files": [
+      "static/chunks/514.adb5030307e2cc53.js"
+    ]
+  },
+  "node_modules/fumadocs-ui/dist/provider/base.js -> ../components/dialog/search-default.js": {
+    "id": 7784,
+    "files": [
+      "static/chunks/583-2a8d063c07b799d0.js",
+      "static/chunks/250-f2d332a3c3d97279.js",
+      "static/chunks/403.ac04675745b910d1.js"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Contacts",
+  "pages": [
+    "add-contact",
+    "contact-management",
+    "contact-edit-and-delete",
+    "export-contacts"
+  ],
+  "collapsed": false,
+  "link": "add-contact"
+}

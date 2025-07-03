@@ -1,0 +1,119 @@
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/vitepress.css';
+@import 'fumadocs-ui/css/preset.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  /* 🌈 Colors */
+  --text-primary:"#5F5F5F";
+  --fd-primary: #01AFF0; /* Tomato */
+  --fd-primary-foreground: #ffffff;
+  --tw-prose-body:"#939393";
+  --fd-muted: #f2f2f2;
+  --fd-muted-foreground: #555555;
+--color-fd-primary:"#01AFF0";
+  --fd-background: #ffffff;
+  --fd-foreground: #000000;
+
+  --fd-border: #e5e7eb;
+  --fd-input: #f9fafb;
+
+  /* 🧱 Radius */
+  --fd-radius: 0.5rem;
+
+  /* ✍️ Typography */
+  --fd-font-sans: 'Inter', sans-serif;
+}
+
+/* Dark mode overrides */
+.dark {
+  --text-primary:"#ffffff";
+  --fd-background: #0f172a;
+  --fd-foreground: #f1f5f9;
+
+  --fd-primary: #38bdf8; /* Light blue */
+  --fd-primary-foreground: #0c0c0c;
+
+  --fd-muted: #1e293b;
+  --fd-muted-foreground: #94a3b8;
+}
+
+strong{
+  font-weight: 600;
+}
+
+/* Custom theme configuration */
+@layer base {
+  html {
+      font-family: "Poppins", sans-serif;
+
+  }
+}
+
+@layer utilities {
+  /* ✅ Custom Colors */
+  .bg-primary {
+    background-color: #1E40AF;
+  }
+  .text-fd-primary {
+    color: var(--fd-primary);
+  }
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: #939393;
+  }
+  .bg-aliceblue{
+    background: #EAF7FD;    
+  }
+  .border-lightgray{
+    border-color: #CBD5E1;
+  }
+  .bg-secondary {
+    background-color: #F59E0B;
+  }
+
+  /* ✅ Custom Font Sizes */
+  .text-heading-xl {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 700;
+  }
+
+  .text-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  /* ✅ Custom Border */
+  .border-soft {
+    border: 1px solid #E5E7EB;
+  }
+
+  /* ✅ Custom Radius */
+  .rounded-xl {
+    border-radius: 1rem;
+  }
+
+  /* ✅ Custom Spacing */
+  .p-18 {
+    padding: 4.5rem;
+  }
+
+  .mt-18 {
+    margin-top: 4.5rem;
+  }
+
+  /* ✅ Custom Shadows */
+  .shadow-soft {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  }
+
+  /* ✅ Custom Grid Breakpoints (via media query) */
+  @media (min-width: 475px) {
+    .xs\:text-sm {
+      font-size: 0.875rem;
+    }
+  }
+}
