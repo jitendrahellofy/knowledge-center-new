@@ -3,9 +3,11 @@
   "pages": [
     "add-contact",
     "contact-management",
+    "contact-groups",
     "contact-edit-and-delete",
-    "export-contacts"
+    "export-contacts",
+    "marketingopt-in"
   ],
-  "collapsed": false,
+  "collapsed": true,
   "link": "add-contact"
 }

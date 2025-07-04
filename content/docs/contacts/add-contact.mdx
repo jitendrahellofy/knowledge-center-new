@@ -1,7 +1,95 @@
 ---
-title: "Add Contact"
+title: "➕ Add Contact"
 ---
 
-Welcome to the Intro guide...
+Quickly add new contacts in Hellofy—either one at a time or in bulk. Just follow a few simple steps to enter details or upload a contact list effortlessly.
 
-Your content here.
+## 👤 Single Contact Creation
+
+To add an individual contact in Hellofy, click on “Add New”. A pop-up panel will appear where you can fill in the contact’s name, phone number, email, tags, and any other relevant details.
+
+<DefaultVector />
+
+## 📥 Bulk Contact Import
+
+Importing multiple contacts in Hellofy is simple and streamlined. Follow these steps to bring your contact data into the platform efficiently:
+
+1. Go to the Contacts module and click the “Import” button at the top right corner.
+
+<DefaultVector />
+
+2. You can download the Sample CSV file for reference
+
+<DefaultVector />
+
+3. Click “Upload File”, choose your contact CSV file, and proceed to the next step.
+
+<DefaultVector />
+
+4. Give your import a recognizable name to track it in import history.
+
+<DefaultVector />
+
+5. Choose Import Type, like if you want the contact details in the uploaded Excel to replace and update any existing contacts in the system or not?
+
+<DefaultVector />
+
+6. Give your import a recognizable name to track it in import history.
+
+<DefaultVector />
+
+7. Select your business’s country so Hellofy can auto-append the correct code to each contact number.
+
+<DefaultVector />
+
+<NoteInfo
+  description={
+    <>
+      <p className="text-sm text-fd-foreground !my-0 px-2 py-2">
+        {" "}
+        <strong className="font-medium">
+          Phone Number Validation in Hellofy
+        </strong>{" "}
+        <br />
+        You can select a country code for validation to ensure consistency in
+        contact data.
+        <br />
+        If you import a file without a country code, Hellofy will automatically
+        add +91 (India) by default.
+        <br />
+        Imported numbers will be validated using the selected country code,
+        which will auto-fill for contacts missing one. <br />
+        <strong className="font-medium">Allowed Formats:</strong> <br />
+        With Country Code: 919876543210, +919876543210 <br />
+        Without Country Code: 9876543210, 09876543210 (will be assigned +91
+        automatically) <br />
+        <strong>
+          Note: If a contact number is already stored with a country code (e.g.,
+          +919876543210), it will remain unchanged.
+        </strong>{" "}
+      </p>{" "}
+    </>
+  }
+/>
+
+8. You can assign tags to all imported contacts (e.g., Leads, Demo Requests, Customers) to group them for future filtering or automation.
+
+<DefaultVector />
+
+9. Enter a group name if you want these contacts grouped together — useful for sending broadcasts to a specific list later.
+
+<DefaultVector />
+
+10. Once all fields are filled (mandatory and optional as needed), click the “Next” button.
+
+<DefaultVector />
+
+11. Match the fields from your file (like name, phone, email) with Hellofy’s contact fields.
+
+<DefaultVector />
+
+12. Once everything is mapped correctly, click “Confirm” to start the import.
+
+<DefaultVector />
+
+After clicking Finish, the import will be processed and you can view the progress or outcome in the Import History section.

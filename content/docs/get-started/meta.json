@@ -2,10 +2,8 @@
   "title": "Get Started",
   "pages": [
     "pre-requisites",
-    "Signin",
-    "Signup",
-    "activate-free-trial"
+    "Signup"
   ],
-  "collapsed": false,
+  "collapsed": true,
   "link": "pre-requisites"
 }

@@ -25,7 +25,7 @@ export const customMdxComponents: MDXComponents = {
     </h3>
   ),
   ul: ({ children, className, ...props }) => (
-    <ul className={cn("list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300", className)} {...props}>
+    <ul className={cn("list-disc pl-6 space-y-2 text-primary dark:text-white", className)} {...props}>
       {children}
     </ul>
   ),
@@ -35,7 +35,7 @@ export const customMdxComponents: MDXComponents = {
     </li>
   ),
   a: ({ children, className, ...props }) => (
-    <a className={cn("text-blue-600 hover:underline dark:text-blue-400", className)} {...props}>
+    <a className={cn("text-fd-primary hover:underline dark:text-fd-primary", className)} {...props}>
       {children}
     </a>
   ),
