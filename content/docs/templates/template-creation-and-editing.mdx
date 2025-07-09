@@ -1,0 +1,91 @@
+---
+title: "Template Creation and Editing"
+order: 2
+---
+
+Hellofy allows you to create powerful and customizable WhatsApp templates that align with Meta's guidelines for business messaging. From personalized messages to dynamic interactions using forms and buttons, templates in Hellofy can be tailored to suit any communication purpose – whether utility, marketing, or authentication.
+
+## 🔧 Create a WhatsApp Template
+
+To get started:
+
+- Go to the Template module in Hellofy.
+- Click + Create New Template.
+- The template editor will open.\
+  You’ll be asked to configure:\
+  **Template Name:** Use lowercase letters, numbers, and underscores (e.g., welcome_message).\
+  **Category:** Choose from Utility, Marketing, or Authentication.\
+  **Channel & Language:** Choose the WhatsApp number and message language.
+
+## 🧩 Template Components
+
+Hellofy’s template editor breaks your message into key components:
+
+**1. Header (Optional)**\
+Appears at the top of your message.\
+Types: Text, Image, Video, Document, or Location\
+File Limits: Image/Video: max 10MB (.jpg, .png, .mp4)
+PDF: max 10MB
+
+<DefaultVector />
+
+**2. Body**\
+The core message. Personalize it using variables like `{{name}}` or `{{orderId}}`.  
+✅ Example: Hi `{{name}}`, your order `{{orderId}}` is on its way!
+
+<DefaultVector />
+
+📌 Always provide sample values for each variable before submitting for approval.
+
+- Add a form below the body to collect data like feedback, inputs, or survey responses directly within WhatsApp. This is ideal for gathering quick user responses and works great for post-purchase experiences or service follow-ups.
+
+<DefaultVector />
+
+**3. Footer (Optional)**\
+Provide additional context or opt-out instructions.\
+💡 **Recommended Footer:**\
+_Reply with "STOP" to unsubscribe from marketing messages._\
+You may also add disclaimers or your brand’s tagline here.
+
+<DefaultVector />
+
+## 🎯 Buttons
+
+Buttons let you make the template interactive and actionable.\
+Types of buttons:\
+**Quick Reply:** Users can tap a predefined response (e.g., "Yes", "No").\
+**Call to Action (CTA):** Link to a website or phone call.\
+You can use a combination of up to ten quick replies or one CTA
+
+<DefaultVector />
+
+## 🤖 Template-Initiated Chatbot Impact
+
+If a chatbot is linked to a WhatsApp template (i.e., Template-Initiated Flow), editing the following will disconnect the template from the bot:
+
+- **The message body**
+- **Any buttons**\
+  After editing, you'll need to reconfigure the bot linkage. Always double-check your automations after template updates to avoid broken journeys.
+
+## 📤 Submit for Approval
+
+Click Submit for Approval.\
+Hellofy sends it to Meta for review\
+🕐 Review Time: 1 to 24 hours.
+
+**Meta validates:**
+- Category
+- Message content
+- Media formats
+- Sample values
+
+## 📌 Template Statuses
+
+- **Approved –** Ready to use
+- **In Review –** Awaiting Meta’s review
+- **Rejected –** Needs changes per Meta's feedback
+- **Draft –** Still being edited; not submitted yet
+
+<DefaultVector />
+
+Stay connected to WhatsApp through Hellofy to sync and track template statuses in real time.

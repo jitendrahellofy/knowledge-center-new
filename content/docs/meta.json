@@ -1,7 +1,7 @@
 {
   "title": "Docs",
   "pages": [
-   "get-started", "contacts"
+   "get-started", "contacts", "templates"
   ],
   "collapsed": true
 }

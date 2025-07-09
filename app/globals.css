@@ -15,3 +15,8 @@ html {
 }
 
 
+.data-\[state\=open\]\:animate-fd-fade-in {
+  &[data-state="open"] {
+    @apply bg-black/30 backdrop-blur;
+  }
+}
