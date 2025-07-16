@@ -1,0 +1,8 @@
+{
+  "title": "Settings",
+  "pages": [
+    "tags","custom-attributes"
+  ],
+  "collapsed": true,
+  "link": "tags"
+}
