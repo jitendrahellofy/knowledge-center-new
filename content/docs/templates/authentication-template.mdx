@@ -1,0 +1,90 @@
+---
+title: "Authentication Template"
+order: 4
+icon: "new"
+---
+
+## 🔐 Authentication Templates
+Authentication templates in **Hellofy** are used to securely verify user identities through **one-time passcodes (OTPs)** sent via WhatsApp. These are typically 4–8 digit alphanumeric codes sent during key authentication steps—such as account sign-up, login, recovery, or security validation.
+
+## 🧾 When to Use an Authentication Template
+Use an **Authentication Template** when you need to:
+- Verify user identity during login or sign-up
+- Confirm user actions for sensitive operations
+- Support account recovery or security checks
+
+If your app or service sends OTPs via WhatsApp, it’s mandatory to use an authentication template for compliance with WhatsApp’s policies.
+
+## 📬 Sample Authentication Message Templates
+Below are a few example formats used in authentication messages:
+- `{{1}} is your verification code.`
+- `{{1}} is your verification code. For your security, do not share this code.`
+- `{{1}} is your verification code. This code expires in 15 minutes.`
+
+<NoteInfo
+  description={
+    <p className="text-sm text-fd-foreground !my-0 px-2 py-2">
+      <span className="text-primary"><code>{`{{1}}`}</code></span> is a placeholder that will dynamically display the user's actual OTP at the time of sending.
+    </p>
+  }
+/>
+
+
+## ✅ Authentication Template Requirements
+When creating Authentication Templates in Hellofy, you must follow specific requirements to ensure your message is compliant and gets approved quickly.
+
+### 📌 Mandatory Message Structure
+Authentication templates include predefined text and optional add-ons. Here's what they typically contain:
+- **Fixed Text:**
+ `<VERIFICATION_CODE> is your verification code.`
+
+
+- **Optional Security Disclaimer:**
+ _For your security, do not share this code._
+
+
+- **Optional Expiration Notice:**
+ _This code expires in `<NUM_MINUTES>` minutes._
+
+
+🧷 **Button Requirement**\
+Every authentication template **must include a “Copy Code” button** that allows users to easily copy the OTP to their clipboard.
+
+<DefaultVector />
+
+⚠️ **Restrictions**\
+To ensure compliance:
+- Do **not** include **URLs, emojis,** or **media** (images, videos, documents).
+- Stick to **plain text** and required buttons only.
+
+
+Templates that follow these guidelines are **less likely to be paused** and ensure a smooth verification experience for your users.
+
+## 🔐 Creating Authentication Templates in Hellofy
+To enable secure user verification via WhatsApp, you can easily create an **Authentication Template** in Hellofy by following the steps below:
+
+### 🧩 Steps to Create an Authentication Template
+1. **Navigate to template module**
+- Click on **“+ Create New Template”**  and select start from scratch to begin.
+- Enter a **template name**.
+- Select **“Authentication Template”** as the category (category change is disabled for authentication templates).
+- Choose the **WhatsApp channel** you'd like to use and select the **desired language.**
+
+<DefaultVector />
+
+2. **Set Up the Message Content**
+
+
+- Define how users will receive their one-time code — choose the **“Copy Code” method.**
+- Check the box to **add security text** (e.g., "For your security, do not share this code") and set a **validity period** for the OTP.
+- You can also **customize the button label** for the copy code feature to match your brand tone.
+- Next for message validity period, WhatsApp allows a max validity of **10 minutes** for authentication messages by default.If you want to set a **custom validity** (up to 15 minutes), you can do it here.
+- 📝 Note: If the message is not delivered within this period, **you won't be charged** and **the user won't receive the message.**
+- Once configured, click **Submit** to send the template for Meta’s review.
+- Approval typically takes up to **24 hours.**
+
+<DefaultVector />
+
+### 📌 **Important Notes**
+- **Authentication templates can only be triggered via Bot or Developer API.**
+- **They can only be sent to users within the same country** as the sender’s WhatsApp Business account. International delivery will **not** be supported.

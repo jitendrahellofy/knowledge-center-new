@@ -1,7 +1,18 @@
 {
   "title": "Settings",
   "pages": [
-    "tags","custom-attributes"
+    "tags",
+    "custom-attributes", 
+    "marketing-opt-in",
+    "role-management",
+    "user-management",
+    "deparment-management",
+    "channel",
+    "conversation-analytics",
+    "template-analytics",
+    "message-analytics",
+    "subscription-management",
+    "wallet-management"
   ],
   "collapsed": true,
   "link": "tags"
