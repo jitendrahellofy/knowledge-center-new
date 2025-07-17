@@ -1,0 +1,74 @@
+---
+title: "🤖 Chatbot Fundamentals"
+---
+
+Creating your first chatbot in Hellofy is simple, but understanding how chatbots function will help you build smarter and more personalized workflows. This guide covers key concepts like trigger points, variables, message cards, and configuration settings like drop-off.
+
+## ✨ What is a Chatbot?
+
+A **chatbot** is an automated flow designed to engage users through chat. It handles queries, collects inputs, and guides users—24/7—without needing human intervention.
+
+## 🚀 How a Chatbot is Triggered
+
+To activate a chatbot in Hellofy, it must be connected to a **Trigger Point**. A trigger point determines when the chatbot is initiated based on user interaction.
+
+**You can trigger a chatbot using:**
+
+- **All Keywords:** The bot starts if the incoming message contains any one of the defined keywords.
+- **Exact Keyword Match:** The bot only runs when the message exactly matches the keyword.
+- **WhatsApp Template:** The bot is triggered after a specific WhatsApp message template is sent to the user.
+
+These options allow you to configure bot behavior precisely based on customer actions or automated templates.
+
+## 🧩 Hellofy Chatbot Builder Interface
+
+The **Chatbot Builder** is the heart of your automation. With an intuitive canvas and drag-and-drop cards, it lets you build rich conversational flows.
+
+<DefaultVector />
+
+**Key Canvas Tools:**
+
+- **Auto Grid Alignment:** Helps you snap cards neatly for a clean structure.
+- **‘+’ Zoom In:** Focus on specific areas of your bot by zooming in.
+- **‘–’ Zoom Out:** View a wider portion of the bot layout.
+- **‘[ ]’ Fit to Screen:** Automatically adjusts your view to fit the entire flow.
+
+<DefaultVector />
+
+## 🚦 Trigger point
+
+The **Trigger point** marks the beginning of your chatbot. It defines how the bot is triggered and connected to the next step.
+
+You can add cards in two ways:
+
+1. Drag and drop a card from the **Chatbot Card Library** and manually link it to the Start Block.
+2. Click the ‘+’ icon while hovering trigger point and drag plus icon to open the card drawer and connect it directly.
+
+<DefaultVector />
+
+## 🗃️ Chatbot Card Library
+
+The Card Library offers all components to build your bot, organized into:
+- **Send Message:** If you don’t require any input from user use this card.
+- **Ask a Question:** Use this card to ask and collect input from users.
+- **Connections:** Cards that create logic or trigger other flows.
+- **Action:** Trigger actions like assigning, or updating info.
+- **Utility:** Set up Conditions and more with Utility tools.
+
+<DefaultVector />
+
+## ✏️ Rename Nodes
+
+To keep your bot organized, you can rename any node or card. Click the edit (pencil) icon, enter a custom name (up to 32 characters), and your label will appear across the canvas, edit panel, and bot session logs.
+
+<DefaultVector />
+
+## 🔄 Variables in Hellofy
+
+A **variable** is a temporary container to store user responses during a conversation.
+
+**Where Are Variables Used?**
+- Ask a user for their name? Store it as `{{name}}`
+- Need to save their feedback score? Store it as `{{rating}}`
+
+These variables personalize the conversation in real-time and are visible only within the active session (they are not stored long-term).
