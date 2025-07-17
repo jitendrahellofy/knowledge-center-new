@@ -11,11 +11,14 @@ To get started:
 
 - Go to the Template module in Hellofy.
 - Click + Create New Template.
+- Select start from scratch.
 - The template editor will open.\
   You’ll be asked to configure:\
   **Template Name:** Use lowercase letters, numbers, and underscores (e.g., welcome_message).\
-  **Category:** Choose from Utility, Marketing, or Authentication.\
+  **Category:** Choose from Utility, Marketing, Authentication or Carousel.\
   **Channel & Language:** Choose the WhatsApp number and message language.
+
+<DefaultVector />
 
 ## 🧩 Template Components
 
@@ -37,9 +40,9 @@ The core message. Personalize it using variables like `{{name}}` or `{{orderId}}
 
 📌 Always provide sample values for each variable before submitting for approval.
 
-- Add a form below the body to collect data like feedback, inputs, or survey responses directly within WhatsApp. This is ideal for gathering quick user responses and works great for post-purchase experiences or service follow-ups.
+- To know more about variables, visit [Variables in Template](/templates/template-creation-and-editing/variables-in-template)
 
-<DefaultVector />
+Add a form below the body to collect data like feedback, inputs, or survey responses directly within WhatsApp. This is ideal for gathering quick user responses and works great for post-purchase experiences or service follow-ups.
 
 **3. Footer (Optional)**\
 Provide additional context or opt-out instructions.\
@@ -59,14 +62,6 @@ You can use a combination of up to ten quick replies or one CTA
 
 <DefaultVector />
 
-## 🤖 Template-Initiated Chatbot Impact
-
-If a chatbot is linked to a WhatsApp template (i.e., Template-Initiated Flow), editing the following will disconnect the template from the bot:
-
-- **The message body**
-- **Any buttons**\
-  After editing, you'll need to reconfigure the bot linkage. Always double-check your automations after template updates to avoid broken journeys.
-
 ## 📤 Submit for Approval
 
 Click Submit for Approval.\
@@ -74,6 +69,7 @@ Hellofy sends it to Meta for review\
 🕐 Review Time: 1 to 24 hours.
 
 **Meta validates:**
+
 - Category
 - Message content
 - Media formats
@@ -86,6 +82,13 @@ Hellofy sends it to Meta for review\
 - **Rejected –** Needs changes per Meta's feedback
 - **Draft –** Still being edited; not submitted yet
 
-<DefaultVector />
-
 Stay connected to WhatsApp through Hellofy to sync and track template statuses in real time.
+
+<br />
+## 🤖 Template-Initiated Chatbot Impact
+
+If a chatbot is linked to a WhatsApp template (i.e., Template-Initiated Flow), editing the following will disconnect the template from the bot:
+
+- **The message body**
+- **Any buttons**\
+  After editing, you'll need to reconfigure the bot linkage. Always double-check your automations after template updates to avoid broken journeys.

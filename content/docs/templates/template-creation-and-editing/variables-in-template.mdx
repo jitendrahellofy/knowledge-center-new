@@ -1,0 +1,62 @@
+---
+title: "Variable in Template"
+order: 1
+---
+
+## 🧩 What Are Variables in Template?
+
+**Variables** in template are dynamic placeholders like `{{Name}}`, `{{Phone}}`, or `{{Email}}` that are automatically replaced with actual customer data when the WhatsApp message is sent.
+
+These are mainly used in the **Message Body** to:
+
+- Personalize your messages.
+- Reuse templates for multiple users.
+- Meet WhatsApp’s template approval criteria.
+
+## ✨ Types of Variables You Can Add
+
+You can insert variables using the **“Add Variables”** button. Available types:
+
+| Variable   | Description                                                              |
+| ---------- | ------------------------------------------------------------------------ |
+| Name       | Inserts the customer’s first name or full name.                          |
+| Phone      | Inserts the customer’s phone number.                                     |
+| Email      | Inserts the customer’s email address.                                    |
+| Add Custom |  Allows you to define a custom variable (e.g., Order ID, Appointment Time, Product Name). |
+
+
+## 📝 Example Use in Message Body
+#### Message Template:
+
+`Hi {{Name}}, your order {{OrderID}} has been confirmed. We'll deliver it to {{Address}} by {{Date}}.`
+
+When sent, this might look like:
+
+`Hi Priya, your order #ORD12345 has been confirmed. We'll deliver it to 42 MG Road, Pune by 18 July 2025.`
+
+## 🎯 Sample Value Field (Mandatory)
+
+Each variable **must** be given a **sample value** during the template creation process.
+- This helps **WhatsApp approve** your template by showing context.
+- For example, if the variable is `{{Name}}`, a sample value can be `Priya`.
+
+You’ll see input fields labeled:
+- **Variable name**
+- **Sample value**\
+Fill both before submitting the template.
+
+## 🔒 WhatsApp Guidelines You Must Follow
+- **Variables must be clearly meaningful** (avoid excessive or vague placeholders).
+- **No promotional content** can be placed within authentication or utility templates.
+- **All variables must be mapped** at the time of sending — if any value is missing, the message may not send.
+
+## ✅ Benefits of Using Variables
+- ✔️ Personalizes messages at scale
+- ✔️ Speeds up template creation
+- ✔️ Saves time by avoiding repeated manual edits
+- ✔️ Complies with WhatsApp template rules
+
+## 📌 Tips
+- Use **Add Custom** to create variables like: `Order ID, Delivery Time, Service Name, Meeting Link,` etc.
+- Avoid too many variables — limit it to what is essential.
+- Always preview your message using **sample values** before submitting for approval.
