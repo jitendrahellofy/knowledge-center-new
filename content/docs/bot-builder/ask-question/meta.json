@@ -1,0 +1,11 @@
+{
+  "title": "Ask Question",
+  "pages": [
+    "ask-text",
+    "ask-email",
+    "ask-list",
+    "ask-button"
+  ],
+  "collapsed": true,
+  "link": "ask-text"
+}

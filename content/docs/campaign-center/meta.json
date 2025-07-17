@@ -1,0 +1,9 @@
+{
+  "title": "Campaign Center",
+  "pages": [
+    "campaign",
+    "analytics"
+  ],
+  "collapsed": true,
+  "link": "campaign"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Send Card",
+  "pages": [
+    "send-text",
+    "send-image",
+    "send-video",
+    "send-form"
+  ],
+  "collapsed": true,
+  "link": "send-card"
+}

@@ -1,0 +1,76 @@
+---
+title: "Campaign"
+---
+
+## 📢 WhatsApp CRM Campaign Module
+
+This module is designed to help you send personalized bulk messages via WhatsApp using approved templates and track their delivery and engagement. Follow this step-by-step guide to create, send, and monitor your marketing campaigns effectively.
+
+### 🛠️ Create a New Campaign
+
+#### Step 1: Select Channel
+
+Choose the WhatsApp Business number from which the campaign will be sent.
+
+<DefaultVector />
+
+#### Step 2: Choose Contact Group(s)
+
+You can select from existing groups or create a new one using:
+- Manual entry
+- File import
+- Filters from contact database
+
+Each group displays:
+- Number of contacts
+- Creation and update timestamps
+- Completion status
+
+<DefaultVector />
+
+<NoteInfo
+  description={
+    <>
+      <p className="text-sm text-fd-foreground !my-0 px-2 py-0">
+        {" "}
+        <strong className="font-medium">
+          Important:
+        </strong>
+      </p>
+      <ul>
+        <li>Only <strong>Completed</strong> groups can be selected.</li>
+        <li>You can send up to <strong>250 marketing broadcasts per day per channel.</strong></li>
+        <li>Only <strong>opted-in contacts</strong> will receive the message.</li>
+      </ul>
+    </>
+  }
+/>
+
+### 🧾 Template Mapping and Personalization
+
+After selecting a group:
+
+#### Step 3: Choose an Approved Template
+Select a pre-approved WhatsApp message template from the dropdown.
+
+<DefaultVector />
+
+#### Step 4: Map Template Variables
+
+For each variable `(e.g., {{Name}}, {{Phone}})`, choose:
+
+- **Fetch from contact:** Auto-populates from CRM fields
+- **Enter my own:** Manually input a static value
+
+<DefaultVector />
+
+#### Step 5: Schedule Your Campaign
+Choose one:
+
+- **Send Immediately:** Campaign sends right after confirmation.
+- **Schedule for Later:** Set a future date/time (up to 3 months ahead).
+
+<DefaultVector />
+
+#### 💳 Note on Credit Blocking:
+When a campaign is scheduled, the estimated message cost is **blocked from your wallet.** This amount is deducted at the time of scheduling.
