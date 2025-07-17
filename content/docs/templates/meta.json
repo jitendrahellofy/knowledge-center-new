@@ -3,7 +3,9 @@
   "pages": [
     "templates-validations",
     "template-creation-and-editing",
-    "template-marketing-and-utility"
+    "template-marketing-and-utility",
+    "authentication-template",
+    "carousel-templates"
   ],
   "collapsed": true,
   "link": "templates-validations"

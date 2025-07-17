@@ -17,6 +17,9 @@
   --color-fd-accent-foreground: hsla(0, 0%, 37%, 1);
   --color-fd-primary: hsla(196, 99%, 47%, 1);
   --color-warning-100:hsla(53, 100%, 97%, 1);
+  --color-warning-900:hsla(46, 61%, 52%, 1);
+  --color-danger-100:hsla(0, 100%, 96%, 1);
+  --color-danger-900:hsla(0, 100%, 66%, 1);
 }
 
 .dark {
@@ -99,3 +102,14 @@ button[data-search-full] {
   background: var(--color-warning-100);
 }
 
+.bg-warning-900{
+  background: var(--color-warning-900);
+}
+
+.bg-danger-100{
+  background: var(--color-danger-100);
+}
+
+.bg-danger-900{
+  background: var(--color-danger-900);
+}
