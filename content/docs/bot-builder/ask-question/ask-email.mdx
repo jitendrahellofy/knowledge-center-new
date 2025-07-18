@@ -1,5 +1,64 @@
 ---
-title: "Ask Email"
+title: "📧 Ask Email"
 ---
 
-## Testttt
+Easily collect verified email addresses from users using the **Ask Email Card** in **Hellofy.** Personalize your message, store responses in variables, and ensure accuracy with built-in validation settings.
+
+## 👥 Who Can Use This Card?
+
+- Available to all **Hellofy** users with permissions to build, manage, or deploy chatbots
+- Included in **all paid Hellofy plans**
+
+## 📩 What Is the Ask Email Card?
+
+The **Ask Email Card** is designed to prompt users for their **email address**, ideal for use cases like:
+- Sending documents or updates
+- Notifying users about upcoming events
+- Following up post-conversation
+
+<DefaultVector />
+
+User input is stored in a **dedicated variable** for use elsewhere in the flow.
+
+## ✍️ Writing Your Question
+
+Make your **Question Text** clear, simple, and to the point so users know exactly what to provide.
+
+You can also apply basic formatting:\
+**Bold** → Use asterisks *\
+_Italic_ → Use underscores _\
+~Strikethrough~ → Use tildes ~
+
+<DefaultVector />
+
+💡 _Personalize your question using variables, like:\
+“Hi @name, please provide your email so we can send you the help document.”_
+
+## 🧠 Example Use Case
+
+**Goal:** Collect emails to send product updates.
+    - **Question Text:** “Please provide your email so we can send you the latest updates.”
+    - **Variable Name:** user_email
+    - **Attempt Limit:** 1
+    - **Validation Error Message (optional):** “Please enter a valid email address.”
+
+<DefaultVector />
+
+## ✅ Validation Settings
+
+To ensure you collect clean, usable data:
+- Set **attempt limit** to restrict retries
+- Enable **Additional Validation Settings**
+    - Automatically checks for a valid email format
+    - Helps prevent incomplete or incorrect submissions
+
+## 🔁 Manage Your Email Card
+
+Click on the **three-dot menu** to:
+- ✏️ **Edit** the email card
+- 🗑️ **Delete** the card
+- 📄 **Duplicate** for reuse in other bot flows
+
+<DefaultVector />
+
+📽️ _Watch the demo GIF above to see how the Ask Email Card works inside Hellofy._

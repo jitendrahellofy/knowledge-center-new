@@ -2,4 +2,61 @@
 title: "API Call"
 ---
 
-## Testttt
+## 🔗 Connect Your System with the WhatsApp Chatbot via API
+
+Seamlessly integrate external platforms and services into your Hellofy chatbot using the powerful **API Call** feature. Configure endpoints, pass data securely, and automate interactions across systems—all without writing complex code.
+
+## 📘 What is an API?
+
+An **API (Application Programming Interface)** is a set of rules that allows different software applications to communicate and share data. Think of it as a bridge that connects your Hellofy chatbot with your CRM, payment gateway, or any external tool—so they can talk to each other in real-time.
+
+## 🔧 Overview: API Call in Hellofy
+
+The **API Call card** in Hellofy allows you to send HTTP requests to external URLs and fetch or submit data. This lets you trigger workflows like:
+
+- Fetching user data from a CRM
+- Validating a coupon code
+- Placing an order
+- Getting delivery status
+- And much more!
+
+## 📡 Supported HTTP Methods in Hellofy
+
+Use different **HTTP methods** depending on the action you want to perform:
+- **GET** – Retrieve data from a server
+- **POST** – Submit data to a server
+- **PUT** – Replace existing data with new content
+- **PATCH** – Update part of the existing data
+- **DELETE** – Remove specific data
+
+## 🔑 Key Components of the API Call Connector
+
+| Field                     | Description                                                               |
+|---------------------------|----------------------------------------------------------------------------|
+| **HTTP Method**           | Choose the request type: `GET`, `POST`, `PUT`, `PATCH`, or `DELETE`        |
+| **URL**                   | The full API endpoint where the request will be sent                       |
+| **Headers**               | Include details like `Content-Type`, `Authorization`, or any custom headers|
+| **Authentication**        | Connect to platforms like HubSpot, Zoho CRM, Razorpay, and more            |
+| **Select Connection**     | Use existing or create new third-party integrations                        |
+| **Query Parameters**      | Add optional key-value pairs to modify your request                        |
+| **Body Content Type**     | Define the format: `JSON`, `XML`, or `Form-URL Encoded`                    |
+| **Body**                  | Input the request payload (only for `POST`, `PUT`, `PATCH`)                |
+| **Test Values**           | Use mock data to test your request before going live                       |
+| **Response from API**     | View the response (status, body, headers) after sending the request        |
+| **Store Response in Variables** | Capture and reuse parts of the response in your next chatbot steps   |
+
+## 🚀 How to Use API Call in Hellofy
+
+**1. Configure the Call:** Choose method, URL, authentication, headers, body, etc.\
+**2. Run a Test:** Add test values to simulate the API call and verify the response\
+**3. Store the Data:** Extract values from the API response and store them in variables\
+    → These variables can be reused in other cards like **Send Text, Send Product,** or **Conditions**
+
+## 💡 Why Use API Call in Hellofy?
+
+- Real-time data exchange with external systems
+- Personalized chatbot experiences
+- Workflow automation across apps
+- End-to-end dynamic conversation logic
+
+📽️ _Refer to the GIF above for a visual guide on how to set up and test API calls in Hellofy._

@@ -1,5 +1,66 @@
 ---
-title: "Ask Text"
+title: " 📝 Ask Text"
 ---
 
-## Testttt
+Use the **Ask Text Card** in **Hellofy** to engage users with open-ended questions and collect detailed responses. Perfect for capturing user feedback, personal details, or any free-form input—responses are stored in a variable for seamless use throughout the chatbot flow.
+
+## 👥 Who Can Use This Card?
+
+- Available to all **Hellofy** users with permissions to build, deploy, or manage chatbots
+- Included in **all paid plans**
+
+## 🔍 What Is the Ask Text Card?
+
+The **Ask Text Card** allows your bot to ask open-ended questions—giving users the flexibility to answer in their own words.\
+Their responses are automatically stored in a **custom variable**, which can be reused elsewhere in the flow for personalization or automation.\
+📌 _This makes conversations feel natural and tailored to each user._
+
+<DefaultVector />
+
+## ✨ Formatting Your Question
+
+Write a clear and concise question in the **Question Text** field so users understand what to respond with.
+You can format your question text to make it stand out:\
+**Bold** → Use asterisks *\
+**Italic** → Use underscores _\
+**Strikethrough** → Use tildes ~
+
+<DefaultVector />
+
+💡 _You can also personalize your question using variables, like: "Hi @name, can you share your PAN Card number?"_
+
+## ✅ Example Use Case
+
+Suppose you’re requesting a user's **PAN Card number** to verify their financial profile.
+- **Question Text:** “Please provide your PAN Card details to assess your profile.”
+- **Variable Name:** user_details (or any meaningful identifier to store the input)
+- **Attempt Limit:** 1
+- **Validation Error Message (optional):** “Please enter a valid 10-digit PAN in the correct format.”
+
+## 📏 Additional Validation Settings:
+
+- Minimum & Maximum characters: 10
+- Use **Regex** to validate input pattern:
+
+regex
+
+CopyEdit\
+```[A-Z]{5}[0-9]{4}[A-Z]{1}```
+
+This ensures the PAN format is:
+- **First 5 characters:** uppercase letters
+- **Next 4 characters:** digits
+- **Final character:** uppercase letter
+
+<DefaultVector />
+
+## 🔁 Manage the Ask Text Card
+
+Click on the **three-dot menu** on the card to:
+- ✏️ **Edit**
+- 🗑️ **Delete**
+- 📄 **Duplicate**
+
+<DefaultVector />
+
+📽️ _Refer to the visual demo (GIF) above to see how to configure the Ask Text Card effectively within Hellofy._
