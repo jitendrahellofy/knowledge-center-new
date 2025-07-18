@@ -4,6 +4,7 @@ import Card from './components/Card';
 import { NewIcon } from './constant/icons/icons';
 import NoteInfo from './components/ui/NoteInfo';
 import DefaultVector from './components/DefaultVector';
+import VideoLayout from './components/VideoLayout';
 import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
 import { customMdxComponents } from './custom-mdx-components';
 export function getMDXComponents(components?: MDXComponents): MDXComponents {
@@ -15,7 +16,8 @@ export function getMDXComponents(components?: MDXComponents): MDXComponents {
     NoteInfo,  
     Accordion,
     Accordions,
-    DefaultVector,        
+    DefaultVector, 
+    VideoLayout,       
     ...components,
   }
 }
