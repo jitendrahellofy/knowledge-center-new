@@ -1,12 +1,12 @@
 {
   "title": "Bot Builder",
   "pages": [
-    "chatbot -fundamentals",
+    "chatbot-fundamentals",
     "chatbot",
     "send-card",
     "ask-question",
     "chatbot-connectors"
   ],
   "collapsed": true,
-  "link": "chatbot -fundamentals"
+  "link": "chatbot-fundamentals"
 }
