@@ -14,14 +14,22 @@ Choose the WhatsApp Business number from which the campaign will be sent.
 
 <DefaultVector />
 
-#### Step 2: Choose Contact Group(s)
+#### Step 2: Choose an Approved Template
+
+Select a pre-approved WhatsApp message template from the dropdown.
+
+<DefaultVector />
+
+#### Step 3: Choose Contact Group(s)
 
 You can select from existing groups or create a new one using:
+
 - Manual entry
 - File import
 - Filters from contact database
 
 Each group displays:
+
 - Number of contacts
 - Creation and update timestamps
 - Completion status
@@ -33,27 +41,23 @@ Each group displays:
     <>
       <p className="text-sm text-fd-foreground !my-0 px-2 py-0">
         {" "}
-        <strong className="font-medium">
-          Important:
-        </strong>
+        <strong className="font-medium">Important:</strong>
       </p>
       <ul>
-        <li>Only <strong>Completed</strong> groups can be selected.</li>
-        <li>You can send up to <strong>250 marketing broadcasts per day per channel.</strong></li>
-        <li>Only <strong>opted-in contacts</strong> will receive the message.</li>
+        <li>
+          Only <strong>Completed</strong> groups can be selected.
+        </li>
+        <li>
+          You can send up to{" "}
+          <strong>250 marketing broadcasts per day per channel.</strong>
+        </li>
+        <li>
+          Only <strong>opted-in contacts</strong> will receive the message.
+        </li>
       </ul>
     </>
   }
 />
-
-### 🧾 Template Mapping and Personalization
-
-After selecting a group:
-
-#### Step 3: Choose an Approved Template
-Select a pre-approved WhatsApp message template from the dropdown.
-
-<DefaultVector />
 
 #### Step 4: Map Template Variables
 
@@ -65,6 +69,7 @@ For each variable `(e.g., {{Name}}, {{Phone}})`, choose:
 <DefaultVector />
 
 #### Step 5: Schedule Your Campaign
+
 Choose one:
 
 - **Send Immediately:** Campaign sends right after confirmation.
@@ -72,5 +77,73 @@ Choose one:
 
 <DefaultVector />
 
-#### 💳 Note on Credit Blocking:
-When a campaign is scheduled, the estimated message cost is **blocked from your wallet.** This amount is deducted at the time of scheduling.
+<NoteInfo
+  description={
+    <>
+      <p className="text-sm text-fd-foreground !my-0 px-2 py-0">
+        {" "}
+        <strong className="font-medium">💳 Note on Credit Blocking:</strong>
+      </p>
+      <p className="text-sm text-fd-foreground !my-0 px-2 py-0">
+        When a campaign is scheduled, the estimated message cost is{" "}
+        <strong className="font-medium">blocked from your wallet.</strong> This
+        amount is deducted at the time of scheduling.
+      </p>
+    </>
+  }
+/>
+
+## 📊 Monitor Campaign Performance
+
+Once sent or scheduled, campaign insights are available immediately.
+
+You’ll See:
+
+- 📤 Sent
+- 📩 Delivered
+- ❌ Failed
+- 📖 Read / Unread
+- 🧑‍🤝‍🧑 Contacts targeted
+- 🔄 Delivery status in real-time
+
+Each campaign also shows a preview of the message and full contact breakdown for accuracy.
+
+## 👥 Create Contact Group from Campaign
+
+You can create a new group based on message response status from any previous campaign.
+
+**Filter By:**\
+Campaign name
+
+- Message status: Sent, Delivered, Read, Failed
+
+This allows for:
+
+- Targeted follow-ups
+- Re-engagement campaigns
+- Precision marketing
+
+Example: Create a group of only those who "Read" the message but didn’t reply, and send them a new offer.
+
+<DefaultVector />
+
+## ❌ Canceling a Scheduled Campaign
+
+If a campaign is scheduled but not yet sent, it can be canceled.
+
+- You will be able to cancel the scheduled broadcast from 3 dots on main listing page of campaign module
+- The broadcast will not be executed.
+- The **blocked amount is automatically released** back into your wallet.
+
+<DefaultVector />
+
+<NoteInfo
+  description={
+    <>
+      <p className="text-sm text-fd-foreground !my-0 px-2 py-2">
+        <strong>📝 Note:</strong> Campaigns marked as Sending or Sent cannot be
+        canceled.
+      </p>
+    </>
+  }
+/>
