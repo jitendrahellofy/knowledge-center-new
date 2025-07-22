@@ -1,0 +1,8 @@
+{
+  "title": "Shared Inbox",
+  "pages": [
+    "initiate-a-new-chat","compose-box","manage-inbox","using-the-inbox-efficiently"
+  ],
+  "collapsed": true,
+  "link": "shared-inbox"
+}
