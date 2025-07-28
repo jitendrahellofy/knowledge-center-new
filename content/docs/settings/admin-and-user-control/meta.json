@@ -1,0 +1,10 @@
+{
+  "title": "Admin & User control",
+  "pages": [
+    "user-management",
+    "role-management", 
+    "deparment-management"
+  ],
+  "collapsed": true,
+  "link": "user-management"
+}

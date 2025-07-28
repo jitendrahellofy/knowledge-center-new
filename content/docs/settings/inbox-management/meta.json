@@ -1,0 +1,9 @@
+{
+  "title": "Inbox management",
+  "pages": [
+    "export-conversations",
+    "ticket-configurations"
+  ],
+  "collapsed": true,
+  "link": "export-conversations"
+}

@@ -46,18 +46,27 @@ You can add cards in two ways:
 1. Drag and drop a card from the **Chatbot Card Library** and manually link it to the Start Block.
 2. Click the ‘+’ icon while hovering trigger point and drag plus icon to open the card drawer and connect it directly.
 
-<DefaultVector />
+<VideoLayout
+  url={"/assets/video/chatbot/chatbot-fundamentals/01_trigger-point.mp4"}
+/>
+
+<VideoLayout
+  url={"/assets/video/chatbot/chatbot-fundamentals/02_trigger-point.mp4"}
+/>
 
 ## 🗃️ Chatbot Card Library
 
 The Card Library offers all components to build your bot, organized into:
+
 - **Send Message:** If you don’t require any input from user use this card.
 - **Ask a Question:** Use this card to ask and collect input from users.
 - **Connections:** Cards that create logic or trigger other flows.
 - **Action:** Trigger actions like assigning, or updating info.
 - **Utility:** Set up Conditions and more with Utility tools.
 
-<DefaultVector />
+<VideoLayout
+  url={"/assets/video/chatbot/chatbot-fundamentals/chatbot-card-library.mp4"}
+/>
 
 ## ✏️ Rename Nodes
 
@@ -70,6 +79,7 @@ To keep your bot organized, you can rename any node or card. Click the edit (pen
 A **variable** is a temporary container to store user responses during a conversation.
 
 **Where Are Variables Used?**
+
 - Ask a user for their name? Store it as `{{name}}`
 - Need to save their feedback score? Store it as `{{rating}}`
 
@@ -77,14 +87,14 @@ These variables personalize the conversation in real-time and are visible only w
 
 ## 🔢 Available Variable Types
 
-| Type | Use Case | Example |
-|------------|--------|-------- |
-| String | Names, addresses, text, emojis, links | `{{user_name}}` = "Aarav" |
-| Number | Any numerical value | `{{total_price}}` = 1500 |
-| Date   | Dates or times | `{{event_date}}` = "2025-07-01" |
-| Array  | List of similar items | `{{product_list}}` = ["T-shirt", "Cap"] |
-| Object | Structured data with multiple fields | `{{user_info}}` = `{"name": "Riya"}` |
-| Boolean| Used only in logic (e.g., agent online check) | `{{is_agent_online}}` = true |
+| Type    | Use Case                                      | Example                                 |
+| ------- | --------------------------------------------- | --------------------------------------- |
+| String  | Names, addresses, text, emojis, links         | `{{user_name}}` = "Aarav"               |
+| Number  | Any numerical value                           | `{{total_price}}` = 1500                |
+| Date    | Dates or times                                | `{{event_date}}` = "2025-07-01"         |
+| Array   | List of similar items                         | `{{product_list}}` = ["T-shirt", "Cap"] |
+| Object  | Structured data with multiple fields          | `{{user_info}}` = `{"name": "Riya"}`    |
+| Boolean | Used only in logic (e.g., agent online check) | `{{is_agent_online}}` = true            |
 
 <DefaultVector />
 
@@ -96,9 +106,11 @@ To capture a response in a variable:
 2. Enter a clear name (e.g., customer_name).
 3. Click **Create.**
 
-<DefaultVector />
+<VideoLayout
+  url={"/assets/video/chatbot/chatbot-fundamentals/creating-variables.mp4"}
+/>
 
-**Rules:** Variable names must start with a letter and only use underscores _ as special characters.
+**Rules:** Variable names must start with a letter and only use underscores \_ as special characters.
 
 ## 🗑️ Deleting a Variable
 
@@ -107,30 +119,40 @@ To delete:
 1. Go to the same variable field.
 2. Click the cross icon in the input field.
 
-<DefaultVector />
+<VideoLayout
+  url={"/assets/video/chatbot/chatbot-fundamentals/delete-variables.mp4"}
+/>
 
 ## ✅ Card Validation Settings
 
 Validation helps ensure the user inputs meet specific conditions. You’ll find these settings in Ask cards like **Ask Text, Ask Number,** etc.
 **Essential Settings:**\
+
 - **Attempts:** Number of retries allowed.
 - **Validation Error Message:** Show a custom message if input is invalid.
-**Extra Validation:**
+  **Extra Validation:**
 - **Minimum/Maximum Range:** For numbers (e.g., rating between 1–5).
 - **Regex (Regular Expression):** For advanced text patterns.
-**Common Regex Examples:**
+  **Common Regex Examples:**
 - `\d{10}` → Matches a 10-digit phone number
 - `[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}` → Matches email format
 - `^https?://` → Matches links starting with `http/https`
 
-<DefaultVector />
+<VideoLayout
+  url={
+    "/assets/video/chatbot/chatbot-fundamentals/card-validation-settings.mp4"
+  }
+/>
 
 ## 🛑 Drop-Off Settings
 
 What if the user stops replying? The **Drop-off** setting defines what should happen.
 **Configure Drop-off:**
-- **What should the bot say to the contact after the wait time expires?** *: Set a message like “It's been a while, and your session has ended”
-- **What response should the bot provide if all its attempts fail?** *: Set a message like “No valid response was found thus the chatbot session is dropped”
-You’ll find this under **Chatbot Settings** while configuring the full flow.
 
-<DefaultVector />
+- **What should the bot say to the contact after the wait time expires?** \*: Set a message like “It's been a while, and your session has ended”
+- **What response should the bot provide if all its attempts fail?** \*: Set a message like “No valid response was found thus the chatbot session is dropped”
+  You’ll find this under **Chatbot Settings** while configuring the full flow.
+
+<VideoLayout
+  url={"/assets/video/chatbot/chatbot-fundamentals/dropp-off-setting.mp4"}
+/>

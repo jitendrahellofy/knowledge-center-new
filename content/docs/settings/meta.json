@@ -1,19 +1,14 @@
 {
   "title": "Settings",
   "pages": [
-    "tags",
-    "custom-attributes", 
-    "marketing-opt-in",
-    "role-management",
-    "user-management",
-    "deparment-management",
-    "channel",
-    "conversation-analytics",
-    "template-analytics",
-    "message-analytics",
-    "subscription-management",
-    "wallet-management"
+    "admin-and-user-control",
+    "subscription-wallet-management", 
+    "whatsapp-channel-analytics",
+    "inbox-management",
+    "contact-management",
+    "integrations",
+    "api"
   ],
   "collapsed": true,
-  "link": "tags"
+  "link": "admin-and-user-control"
 }
