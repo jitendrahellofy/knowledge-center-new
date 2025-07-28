@@ -1,0 +1,9 @@
+{
+  "title": "Subscription & Wallet management",
+  "pages": [
+    "subscription-management",
+    "wallet-management"
+  ],
+  "collapsed": true,
+  "link": "subscription-management"
+}

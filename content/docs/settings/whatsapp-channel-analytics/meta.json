@@ -1,0 +1,11 @@
+{
+  "title": "Whatsapp channel & analytics",
+  "pages": [
+    "channel",
+    "template-analytics",
+    "conversation-analytics",
+    "message-analytics"
+  ],
+  "collapsed": true,
+  "link": "channel"
+}
