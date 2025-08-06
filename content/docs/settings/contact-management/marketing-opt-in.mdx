@@ -9,18 +9,21 @@ icon: "new"
 The **Marketing Opt-In** feature allows businesses to respect users’ communication preferences by automating how users opt in or out of marketing messages via simple keyword replies such as `STOP` or `SUBSCRIBE`.
 
 ### 🧭 Navigation Path
+
 **Settings > Contact management > Marketing Opt-In**
 
-
 ### 🔍 What This Does
+
 This screen allows you to:
+
 - Customize **auto-responses** for users who opt out or back in.
 - Ensure compliance with communication regulations.
 - Build trust with customers by giving them full control over marketing communication.
 
-
 ### ⚙️ How to Use
+
 1. **Set STOP Response Message**
+
 - This message is triggered **automatically** when a user replies with the keyword STOP.
 - It confirms their decision to **opt out** of further marketing messages.
 
@@ -28,31 +31,42 @@ This screen allows you to:
 "You have successfully opted out. Reply SUBSCRIBE to opt back in."\
 💡 _Tip: Keep the tone polite and offer a clear path to re-subscribe._
 
-<DefaultVector />
+<VideoLayout
+  url={
+    "/assets/video/settings/contact-management/marketing-opt-in/set-stop-response-message.mp4"
+  }
+/>
 
 2. **Set SUBSCRIBE Response Message**
+
 - This message is sent when a user sends the keyword `SUBSCRIBE`.
 - It confirms they’ve successfully opted **back in** to receive updates.
-
 
 **Example:**\
 "Thanks for subscribing! You will now receive marketing updates."\
 💡 _Tip: Use friendly language to build positive engagement._
-<DefaultVector />
+
+<VideoLayout
+  url={
+    "/assets/video/settings/contact-management/marketing-opt-in/set-subscribe-response-message.mp4"
+  }
+/>
 
 ✅ **Best Practices**
+
 - Always use clear, respectful language in these messages.
 - Don't modify the keywords `STOP` and `SUBSCRIBE`—they're standard triggers.
 - Keep responses short, compliant, and customer-friendly.
 
 📝 **Use Cases & Examples**
 
-| Scenario   | User Action | System Response                                                       |
-| ---------- | ------------------------------------------------------------------------ |-------------------------------------------------------------- |
-| A customer no longer wants to receive promotional messages       | Replies with **STOP**                          | "You have successfully opted out. Reply SUBSCRIBE to opt back in."                   |
-| Later, the same customer wants to receive offers again | Replies with **SUBSCRIBE** | "Thanks for subscribing! You will now receive marketing updates." |
+| Scenario                                                   | User Action                | System Response                                                    |
+| ---------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------ |
+| A customer no longer wants to receive promotional messages | Replies with **STOP**      | "You have successfully opted out. Reply SUBSCRIBE to opt back in." |
+| Later, the same customer wants to receive offers again     | Replies with **SUBSCRIBE** | "Thanks for subscribing! You will now receive marketing updates."  |
 
 ### 🧠 **Why This Matters**
+
 - Enhances **customer satisfaction** by honoring their preferences.
 - Helps maintain **WhatsApp compliance** to avoid message blocking.
 - Enables targeted campaigns to only those who want to hear from you.
