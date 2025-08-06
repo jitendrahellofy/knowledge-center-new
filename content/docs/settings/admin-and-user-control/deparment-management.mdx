@@ -10,56 +10,83 @@ The **Department Management** module in Hellofy allows admins to organize team m
 ded to your workspace and will receive login access if applicable.
 
 #### 📍 Where to Find It
+
 1. Go to the **Settings** panel in the left navigation.
 2. Under **Admin & User Control**, click on **Department**.
 
 #### 🧩 Department Listing Overview
+
 You’ll see a table view with the following columns:
 
-| Column   | Description |
-| ---------- | ------------------------------------------------------------------------ |
-| Department Name | The name of the department (e.g., Developer, Designer) |
-| Description | Additional details about the department |
-| Members | Count of users assigned to this department (clickable to view users) |
-| Created By | Name of the user who created the department |
-| Created On | Date and time of creation |
-| ✏️ Edit | Modify the department name or description |
-| 🗑️ Delete | Remove the department permanently |
+| Column          | Description                                                          |
+| --------------- | -------------------------------------------------------------------- |
+| Department Name | The name of the department (e.g., Developer, Designer)               |
+| Description     | Additional details about the department                              |
+| Members         | Count of users assigned to this department (clickable to view users) |
+| Created By      | Name of the user who created the department                          |
+| Created On      | Date and time of creation                                            |
+| ✏️ Edit         | Modify the department name or description                            |
+| 🗑️ Delete       | Remove the department permanently                                    |
 
 #### ➕ How to Create a Department
+
 1. Click on the **Create Department** button (top-right corner).
 2. Fill in the following fields:
-      - **Department Name** – e.g., “Sales”
-      - **Description** (optional) – e.g., “Handles customer leads and onboarding.”
+   - **Department Name** – e.g., “Sales”
+   - **Description** (optional) – e.g., “Handles customer leads and onboarding.”
 3. Click **Create** to finalize.
 
 _🔒 Only users with admin roles can create or manage departments._
-<DefaultVector />
+
+<VideoLayout
+  url={
+    "/assets/video/settings/admin-user-control/department-management/how-to-create-a-department.mp4"
+  }
+/>
 
 #### ✏️ Edit a Department
+
 - Click the **pencil icon** next to the department you want to edit.
 - Update the department name or description.
 - Save the changes.
-<DefaultVector />
-
-#### 🗑️ Delete a Department
-- Click the **trash icon** beside the desired department.
-- You’ll be prompted to confirm deletion.
-<DefaultVector />
-
-<NoteInfo
-  bgColor={'bg-danger-100 dark:!bg-danger-900'}
-  description={
-     <p className="text-sm text-fd-foreground !my-0 px-2 py-2">⚠️ Before deleting, make sure there are no active users or dependencies in the department.</p>
-  }
+  <VideoLayout
+    url={
+      "/assets/video/settings/admin-user-control/department-management/edit-a-department.mp4"
+    }
   />
 
+#### 🗑️ Delete a Department
+
+- Click the **trash icon** beside the desired department.
+- You’ll be prompted to confirm deletion.
+  <VideoLayout
+    url={
+      "/assets/video/settings/admin-user-control/department-management/delete-a-department.mp4"
+    }
+  />
+
+<NoteInfo
+  bgColor={"bg-danger-100 dark:!bg-danger-900"}
+  description={
+    <p className="text-sm text-fd-foreground !my-0 px-2 py-2">
+      ⚠️ Before deleting, make sure there are no active users or dependencies in
+      the department.
+    </p>
+  }
+/>
+
 #### 👥 Viewing Members in a Department
+
 - The **Members** count is clickable. Click the number to view the list of users assigned to that department.
 - You can manage users from there via the **User Management** section.
-<DefaultVector />
+  <VideoLayout
+    url={
+      "/assets/video/settings/admin-user-control/department-management/viewing-members-in-a-department.mp4"
+    }
+  />
 
 #### 💡 Use Cases
+
 - Segment team by roles (e.g., Tech Support vs. Marketing).
 - Assign conversations or chatbot flows based on departments.
 - Control feature access and message handling more efficiently.
